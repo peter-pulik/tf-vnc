@@ -4,54 +4,54 @@
 
 <default revision="refs/heads/master" remote="github"/>
 
-<project name="tf-build" remote="githubtf" revision="R2011" path="tools/build">
+<project name="tf-build" remote="githubtf" revision="22ba9a4a4d4b5fccb36d45c6baf7d301064282ae" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="tf-controller" remote="githubtf" revision="R2011" path="controller"/>
-<project name="tf-vrouter" remote="githubtf" revision="R2011" path="vrouter"/>
-<project name="tf-third-party" remote="githubtf" revision="R2011" path="third_party"/>
-<project name="tf-common" remote="githubtf" revision="R2011" path="src/contrail-common"/>
-<project name="tf-analytics" remote="githubtf" revision="R2011" path="src/contrail-analytics"/>
-<project name="tf-api-client" remote="githubtf" revision="R2011" path="src/contrail-api-client"/>
-<project name="tf-packages" remote="githubtf" revision="R2011" path="tools/packages"/>
-<project name="tf-nova-vif-driver" remote="githubtf" revision="R2011" path="openstack/nova_contrail_vif"/>
-<project name="tf-neutron-plugin" remote="githubtf" revision="R2011" path="openstack/neutron_plugin"/>
-<project name="tf-heat-plugin" remote="githubtf" revision="R2011" path="openstack/contrail-heat"/>
-<project name="tf-web-controller" remote="githubtf" revision="R2011" path="contrail-web-controller"/>
-<project name="tf-web-core" remote="githubtf" revision="R2011" path="contrail-web-core"/>
-<project name="tf-webui-third-party" remote="githubtf" revision="R2011" path="contrail-webui-third-party"/>
-<project name="tf-tripleo-puppet" remote="githubtf" revision="R2011" path="openstack/contrail-tripleo-puppet"/>
-<project name="tf-deployment-test" remote="githubtf" revision="R2011" path="tf-deployment-test"/>
+<project name="tf-controller" remote="githubtf" revision="2e790c46e78be7a286a7e49fbb0c8d5668d32dc4" path="controller"/>
+<project name="tf-vrouter" remote="githubtf" revision="1b969bd11ace04b69bfea4b8e25ec91799e5c2b4" path="vrouter"/>
+<project name="tf-third-party" remote="githubtf" revision="78676cd7c94cff4a5f5b68af20af24a9267ba187" path="third_party"/>
+<project name="tf-common" remote="githubtf" revision="9d463c7617954438fc8fb62f87a5fb22dada0262" path="src/contrail-common"/>
+<project name="tf-analytics" remote="githubtf" revision="d3d7d74d4e033eb565082d7aa2f436de8ea5633b" path="src/contrail-analytics"/>
+<project name="tf-api-client" remote="githubtf" revision="c1f7b041d590536cf04a1c63a6052b8009cb732f" path="src/contrail-api-client"/>
+<project name="tf-packages" remote="githubtf" revision="601829fab8fd82783ea852619779f72a4433d5a9" path="tools/packages"/>
+<project name="tf-nova-vif-driver" remote="githubtf" revision="f0494fe39090cd21d5036802332cc29eb1887e92" path="openstack/nova_contrail_vif"/>
+<project name="tf-neutron-plugin" remote="githubtf" revision="1311eb0a39a3b9d554d36edd6ab9581d9f90d72c" path="openstack/neutron_plugin"/>
+<project name="tf-heat-plugin" remote="githubtf" revision="e1993e7e3f72f02ff33241ddc7effbb1f7aa3a15" path="openstack/contrail-heat"/>
+<project name="tf-web-controller" remote="githubtf" revision="9d5c7e6e0ca002bc3a349d312a42de7dcf831ec7" path="contrail-web-controller"/>
+<project name="tf-web-core" remote="githubtf" revision="6d8796413cfbbe63820986604426c01d8453dceb" path="contrail-web-core"/>
+<project name="tf-webui-third-party" remote="githubtf" revision="30be4ff8114da6fcf494e9614959619ba23b94e1" path="contrail-webui-third-party"/>
+<project name="tf-tripleo-puppet" remote="githubtf" revision="ecd49a866ffe4708b98bb4118d3245d903671142" path="openstack/contrail-tripleo-puppet"/>
+<project name="tf-deployment-test" remote="githubtf" revision="45581d6863914a5d08564de87bb290417cae3fcc" path="tf-deployment-test"/>
 <!-- vCenter projects -->
-<project name="tf-java-api" remote="githubtf" revision="R2011" path="java-api"/>
-<project name="tf-vijava" remote="githubtf" revision="R2011" path="vijava"/>
-<project name="tf-vcenter-plugin" remote="githubtf" revision="R2011" path="vcenter-plugin"/>
-<project name="tf-vcenter-manager" remote="githubtf" revision="R2011" path="vcenter-manager"/>
-<project name="tf-vcenter-fabric-manager" remote="githubtf" revision="R2011" path="vcenter-fabric-manager"/>
-<project name="tf-vrouter-java-api" remote="githubtf" revision="R2011" path="vrouter-java-api"/>
-<project name="tf-vro-plugin" remote="githubtf" revision="R2011" path="vro-plugin"/>
+<project name="tf-java-api" remote="githubtf" revision="608c14515eaf7035ecb034209bb02ac955580fd7" path="java-api"/>
+<project name="tf-vijava" remote="githubtf" revision="e47df2dda8239b2b5fc994e62f7b8a17f54b1407" path="vijava"/>
+<project name="tf-vcenter-plugin" remote="githubtf" revision="2ead24193f3a413242ab2641b10e42a6ca62a47d" path="vcenter-plugin"/>
+<project name="tf-vcenter-manager" remote="githubtf" revision="0d54451cfcb90a44a82df4c6067f904abf8bd436" path="vcenter-manager"/>
+<project name="tf-vcenter-fabric-manager" remote="githubtf" revision="1eec1938f3af408ae28036648101558f106679a6" path="vcenter-fabric-manager"/>
+<project name="tf-vrouter-java-api" remote="githubtf" revision="f1009181f6c6986da6b167daa101c75b98b0208a" path="vrouter-java-api"/>
+<project name="tf-vro-plugin" remote="githubtf" revision="35c24e2100989ee43ddefb1809a0ebcb0605b326" path="vro-plugin"/>
 <!-- Used by OpenContrail CI jobs -->
-<project name="tf-dpdk" remote="githubtf" revision="contrail_dpdk_19_11" path="third_party/dpdk" />
+<project name="tf-dpdk" remote="githubtf" revision="5018a19a692bbb3f864c6adba3eb047eef03ddc2" path="third_party/dpdk" />
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
-<project name="tf-specs" remote="githubtf" revision="master" path="contrail-specs" />
-<project name="tf-test" remote="githubtf" revision="R2011" path="third_party/contrail-test" />
+<project name="tf-specs" remote="githubtf" revision="3229a72bd94287dd8d34b7c5d008f2d79589ef60" path="contrail-specs" />
+<project name="tf-test" remote="githubtf" revision="bffd5871e7a0b2769217941b2e83f818b1c41167" path="third_party/contrail-test" />
 <!-- Contrail containers -->
-<project name="tf-container-builder" remote="githubtf" revision="R2011" path="contrail-container-builder" />
+<project name="tf-container-builder" remote="githubtf" revision="ref: refs/heads/R2011" path="contrail-container-builder" />
 <!-- Contrail fat-deployers containers -->
-<project name="tf-deployers-containers" remote="githubtf" revision="R2011" path="contrail-deployers-containers" />
-<project name="tf-ansible-deployer" remote="githubtf" revision="R2011" path="contrail-deployers-containers/containers/kolla-ansible-deployer/src/contrail-ansible-deployer" />
-<project name="tf-kolla-ansible" remote="githubtf" revision="contrail/queens" path="contrail-deployers-containers/containers/kolla-ansible-deployer/src/contrail-kolla-ansible" />
+<project name="tf-deployers-containers" remote="githubtf" revision="a27c3c0024957012f62fa72df083e2b61e8d59d2" path="contrail-deployers-containers" />
+<project name="tf-ansible-deployer" remote="githubtf" revision="31ac7fb6228f7a86478e3f3e960e2c20638b4444" path="contrail-deployers-containers/containers/kolla-ansible-deployer/src/contrail-ansible-deployer" />
+<project name="tf-kolla-ansible" remote="githubtf" revision="00ea35e74d02f2a06dc56d3ca26865f02061e3ab" path="contrail-deployers-containers/containers/kolla-ansible-deployer/src/contrail-kolla-ansible" />
 <!-- Contrail third party packages -->
-<project name="tf-third-party-packages" remote="githubtf" revision="master" path="third_party/contrail-third-party-packages" />
+<project name="tf-third-party-packages" remote="githubtf" revision="67012a85288e8b579dd1c13fcd2af6ebc10039bf" path="third_party/contrail-third-party-packages" />
 <!-- Deployers based on scratch -->
-<project name="tf-charms" remote="githubtf" revision="master" path="tf-charms"/>
-<project name="tf-helm-deployer" remote="githubtf" revision="master" path="tf-helm-deployer"/>
-<project name="tf-ansible-deployer" remote="githubtf" revision="R2011" path="tf-ansible-deployer"/>
-<project name="tf-kolla-ansible" remote="githubtf" revision="master" path="tf-kolla-ansible"/>
-<project name="tf-container-builder" remote="githubtf"  revision="R2011" path="tf-container-builder"/>
-<project name="tf-tripleo-heat-templates" remote="githubtf" revision="stable/queens" path="tf-tripleo-heat-templates"/>
-<project name="tf-openshift-ansible" remote="githubtf" revision="release-3.11-contrail" path="tf-openshift-ansible" />
-<project name="tf-operator" remote="githubtf" revision="R2011" path="tf-operator"/>
-<project name="tf-openshift" remote="githubtf" revision="R2011" path="tf-openshift"/>
+<project name="tf-charms" remote="githubtf" revision="c04a37ede568162982508785aa97bb68f2c3f598" path="tf-charms"/>
+<project name="tf-helm-deployer" remote="githubtf" revision="8715ea8abebe6a63fde58b82fe491db7ab69f8bd" path="tf-helm-deployer"/>
+<project name="tf-ansible-deployer" remote="githubtf" revision="31ac7fb6228f7a86478e3f3e960e2c20638b4444" path="tf-ansible-deployer"/>
+<project name="tf-kolla-ansible" remote="githubtf" revision="52d46d0826e24e8250d89a31f92fd2bc4273c1e4" path="tf-kolla-ansible"/>
+<project name="tf-container-builder" remote="githubtf" revision="423db4b0c79469df7c78f24c26759fe9b6360ce8" path="tf-container-builder"/>
+<project name="tf-tripleo-heat-templates" remote="githubtf" revision="1ab7c2f2778f56d81ac19bb6581b5f6b19988b75" path="tf-tripleo-heat-templates"/>
+<project name="tf-openshift-ansible" remote="githubtf" revision="fe8250a93b49533e8eae27461b687d95ab093bdd" path="tf-openshift-ansible" />
+<project name="tf-operator" remote="githubtf" revision="c32cc66b9df0c76307b8b1c0f60e9814a2c0e76f" path="tf-operator"/>
+<project name="tf-openshift" remote="githubtf" revision="a90018d2f4f561c976ef02b1ef63471ba201b28d" path="tf-openshift"/>
 
 </manifest>
