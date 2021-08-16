@@ -36,7 +36,7 @@
 <project name="tf-specs" remote="githubtf" revision="3229a72bd94287dd8d34b7c5d008f2d79589ef60" path="contrail-specs" />
 <project name="tf-test" remote="githubtf" revision="bffd5871e7a0b2769217941b2e83f818b1c41167" path="third_party/contrail-test" />
 <!-- Contrail containers -->
-<project name="tf-container-builder" remote="githubtf" revision="ref: refs/heads/R2011" path="contrail-container-builder" />
+<project name="tf-container-builder" remote="githubtf" revision="423db4b0c79469df7c78f24c26759fe9b6360ce8" path="contrail-container-builder" />
 <!-- Contrail fat-deployers containers -->
 <project name="tf-deployers-containers" remote="githubtf" revision="a27c3c0024957012f62fa72df083e2b61e8d59d2" path="contrail-deployers-containers" />
 <project name="tf-ansible-deployer" remote="githubtf" revision="31ac7fb6228f7a86478e3f3e960e2c20638b4444" path="contrail-deployers-containers/containers/kolla-ansible-deployer/src/contrail-ansible-deployer" />
