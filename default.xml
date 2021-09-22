@@ -21,7 +21,7 @@
 <project name="tf-web-core" remote="githubtf" revision="6d8796413cfbbe63820986604426c01d8453dceb" path="contrail-web-core"/>
 <project name="tf-webui-third-party" remote="githubtf" revision="30be4ff8114da6fcf494e9614959619ba23b94e1" path="contrail-webui-third-party"/>
 <project name="tf-tripleo-puppet" remote="githubtf" revision="ecd49a866ffe4708b98bb4118d3245d903671142" path="openstack/contrail-tripleo-puppet"/>
-<project name="tf-deployment-test" remote="githubtf" revision="45581d6863914a5d08564de87bb290417cae3fcc" path="tf-deployment-test"/>
+<project name="tf-deployment-test" remote="githubtf" revision="93238f9f047e454919c2747a957b47ecd1881535" path="tf-deployment-test"/>
 <!-- vCenter projects -->
 <project name="tf-java-api" remote="githubtf" revision="608c14515eaf7035ecb034209bb02ac955580fd7" path="java-api"/>
 <project name="tf-vijava" remote="githubtf" revision="e47df2dda8239b2b5fc994e62f7b8a17f54b1407" path="vijava"/>
